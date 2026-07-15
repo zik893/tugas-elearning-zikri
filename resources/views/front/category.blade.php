@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $category->name }} — LearnDafa</title>
+    <title>{{ $category->name }} — LearnZikri</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -71,7 +71,7 @@
 
 {{-- NAV --}}
 <nav class="navbar">
-    <div class="navbar-logo">Learn<span>Dafa</span></div>
+    <div class="navbar-logo">Learn<span>Zikri</span></div>
     <div class="navbar-links">
         <a href="{{ route('front.index') }}#categories">Kategori</a>
         <a href="{{ route('front.index') }}#courses">Kelas</a>
@@ -141,11 +141,11 @@
 <footer class="footer">
     <div class="footer-inner">
         <div class="footer-top">
-            <div class="footer-logo">Learn<span>Dafa</span></div>
+            <div class="footer-logo">Learn<span>Zikri</span></div>
             <p style="color:rgba(255,255,255,.5); font-size:14px;">Platform belajar online terpercaya untuk generasi digital Indonesia.</p>
         </div>
         <div class="footer-copy">
-            © {{ date('Y') }} LearnDafa by Dafagiandra Dwi Maulana — Sistem Informasi UHTP
+            © {{ date('Y') }} LearnZikri by Zikri — Sistem Informasi UHTP
         </div>
     </div>
 </footer>
